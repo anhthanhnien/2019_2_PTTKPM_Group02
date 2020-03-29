@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+body{
+
+    background-image: url(/Dining/anh_nen.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+h2{
+    color: goldenrod;
+    text-align: left;text-decoration: underline;
+}
+h3{
+    color:darkred;
+}
+ul{
+    list-style-type: none;
+      margin: 0;
+     padding: 0;
+     overflow: hidden;
+     
+       }
+   ul li{
+    float:right;
+   
+   }
+   
+   ul li a{
+   
+           color:white;
+       font-size:200%;
+     display: block;
+     text-align: center;
+     padding: 17px 19px;
+     text-decoration: none;
+   }
+   ol{
+       border-bottom:2px solid #FFBF00;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+   }
+   ol li{
+     float: right;
+   }
+   
+   ol li a{
+           color: #FFBF00;
+       font-size:100%;
+     display: block;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+   }
+   
+   
+.buffet{
+    width: 800px;
+    height: 500px;
+    padding: 1rem 1rem;
+    padding-bottom: 3rem;
+    color: black;
+    border: 0.2rem solid black;
+    background-position: right;
+    border-radius: 20px;
+}
+#one,#two,#three{
+   
+    vertical-align: top;
+    margin: 10px;
+    display: inline-block;
+}
+.buffet,.mini,.lounge{
+    font-size: 25px;
+    
+    margin: 10px;
+    display: inline-block;
+}
+.mini{
+    width: 800px;
+    height: 500px;
+    padding: 1rem 1rem;
+    padding-bottom: 3rem;
+    color: black;
+    border: 0.2rem solid black;
+    background-position: right;
+    border-radius: 20px;
+}
+.lounge{
+    width: 800px;
+    height: 500px;
+    padding: 1rem 1rem;
+    padding-bottom: 3rem;
+    color: black;
+    border: 0.2rem solid black;
+    background-position: right;
+    border-radius: 20px;
+}
