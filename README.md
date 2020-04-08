@@ -1,5 +1,5 @@
 # Software Design and Construction
-Project: Website bất động sản (khách sạn)
+Project: Website quản lý khách sạn
 
 
 Java EE JSP Servlet
