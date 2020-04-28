@@ -1,0 +1,29 @@
+body{
+	background-image: url("anh_nen.jpg");
+    background-repeat:no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ol {
+    border-bottom:2px solid #FFBF00;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ol li {
+    float: right;
+}
+
+ol li a {
+    color: #FFBF00;
+	font-size:100%;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
