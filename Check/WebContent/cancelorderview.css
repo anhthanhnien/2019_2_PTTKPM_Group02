@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f1f1f1;
+}
+
+h1 {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+ol {
+    border-bottom:2px solid #FFBF00;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ol li {
+    float: right;
+}
+
+ol li a {
+    color: #FFBF00;
+	font-size:100%;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
