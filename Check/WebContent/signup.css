@@ -1,0 +1,140 @@
+#body {
+    background-image: url(anh_nen.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}	
+ 
+ul{
+    list-style-type: none;
+      margin: 0;
+     padding: 0;
+     overflow: hidden;
+     
+       }
+   ul li{
+    float:right;
+   
+   }
+   
+   ul li a{
+   
+           color:white;
+       font-size:200%;
+     display: block;
+     text-align: center;
+     padding: 17px 19px;
+     text-decoration: none;
+   }
+   ol{
+       border-bottom:2px solid #FFBF00;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+   }
+   ol li{
+     float: right;
+   }
+   
+   ol li a{
+           color: #FFBF00;
+       font-size:100%;
+     display: block;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+   }
+
+p {
+	text-align: center;
+	color: red;
+}      
+
+  .box{
+    width: 350px;
+    padding: 40px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    text-align: center;
+    border-radius: 2rem;
+  }
+  .box h1{
+    color: goldenrod;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+	padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  .box input[type = "password"]:focus{
+    width: 280px;
+    border-color: gold;
+  }
+    .box input[type = "text"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  .box input[type = "text"]:focus{
+    width: 280px;
+    border-color: gold;
+  }
+    .box input[type = "email"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  .box input[type = "email"]:focus{
+    width: 280px;
+    border-color: gold;
+  }
+  .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 40px;
+    outline: none;
+    color: goldenrod;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .box input[type = "submit"]:hover{
+    background: gold;
+  }

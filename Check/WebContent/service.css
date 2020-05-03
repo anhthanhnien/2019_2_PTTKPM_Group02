@@ -1,0 +1,70 @@
+#first,#second,#third{
+    color: goldenrod;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.price{
+    border: 3px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.center {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+ul{
+    list-style-type: none;
+      margin: 0;
+     padding: 0;
+     overflow: hidden;
+     
+       }
+   ul li{
+    float:right;
+   
+   }
+   
+   ul li a{
+   
+           color:white;
+       font-size:200%;
+     display: block;
+     text-align: center;
+     padding: 17px 19px;
+     text-decoration: none;
+   }
+   ol{
+       border-bottom:2px solid #FFBF00;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+   }
+   ol li{
+     float: right;
+   }
+   
+   ol li a{
+           color: #FFBF00;
+       font-size:100%;
+     display: block;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+   }
+.img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+body{
+    background-image: url(anh_nen.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+*{
+  margin: 0;
+}
